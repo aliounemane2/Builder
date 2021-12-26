@@ -26,7 +26,9 @@ public class ConcreteBuilder extends Builder {
         return this;
     }
 
+
     public Product getResult() {
         return product;
     }
+
 }
